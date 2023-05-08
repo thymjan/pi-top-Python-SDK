@@ -48,7 +48,7 @@ class EncoderMotorControllerTestCase(TestCase):
                 controller.set_braking_type(brake_type)
 
     def test_power_returns_none_if_not_on_mode_0(self):
-        """power() returns None if not on Mode 0."""
+        """Power() returns None if not on Mode 0."""
         controller = EncoderMotorController(port="M1")
         mode_mock = controller.control_mode = Mock()
 
@@ -75,7 +75,7 @@ class EncoderMotorControllerTestCase(TestCase):
             self.assertEqual(controller.rpm_with_rotations(), None)
 
     def test_stop_works_on_all_modes(self):
-        """stop() stops the motor in all modes."""
+        """Stop() stops the motor in all modes."""
         controller = EncoderMotorController(port="M1")
         mode_mock = controller.control_mode = Mock()
 
