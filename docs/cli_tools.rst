@@ -232,7 +232,7 @@ peripherals
 
 Example:
 
-..
+.. code-block:: bash
 
     pi@pi-top:~ $ pi-top devices
     
