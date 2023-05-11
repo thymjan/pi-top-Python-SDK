@@ -235,6 +235,7 @@ Example:
 ..
 
     pi@pi-top:~ $ pi-top devices
+    
     HUB ===================================================
     pi-top [4] (v5.4)
     PERIPHERALS ===========================================
@@ -248,6 +249,7 @@ Example:
     [   ] pi-topSPEAKER (v2)
 
     pi@pi-top:~ $ pt devices peripherals
+    
     [ ✓ ] pi-top [4] Expansion Plate (v21.5)
     [   ] pi-top Touchscreen
     [   ] pi-top Keyboard
@@ -258,6 +260,7 @@ Example:
     [   ] pi-topSPEAKER (v2)
 
     pi@pi-top:~ $ pt devices hub --name-only
+    
     pi-top [4]
 
 
